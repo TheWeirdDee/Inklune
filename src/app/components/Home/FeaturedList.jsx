@@ -34,7 +34,7 @@ export default function FeaturedList() {
 
     return (
         <section className="w-full bg-[#f5f5f7] py-14">
-            <div className="max-w-7xl mx-auto px-0 lg:px-16">
+            <div className="max-w-7xl mx-auto px-6 lg:px-16">
 
                 <div className="flex items-center justify-between mb-8">
                     <h2 className="text-lg font-semibold text-gray-800">
