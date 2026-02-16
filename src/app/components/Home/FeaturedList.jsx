@@ -34,9 +34,8 @@ export default function FeaturedList() {
 
     return (
         <section className="w-full bg-[#f5f5f7] py-14">
-            <div className="max-w-7xl mx-auto px-6 lg:px-16">
+            <div className="max-w-7xl mx-auto px-0 lg:px-16">
 
-                {/* HEADER */}
                 <div className="flex items-center justify-between mb-8">
                     <h2 className="text-lg font-semibold text-gray-800">
                         Featured List
@@ -71,7 +70,7 @@ export default function FeaturedList() {
                                 />
 
                                 {/* META */}
-                                <div className="absolute bottom-[-6] md:bottom-0 left-2 flex items-center gap-2 z-10">
+                                <div className="absolute bottom-[-5] md:bottom-0 md:left-2 left-0 flex items-center gap-2 z-10">
                                     <div className="relative w-7 h-7 rounded-full overflow-hidden shadow-sm">
                                         <Image
                                             src={post.profile}

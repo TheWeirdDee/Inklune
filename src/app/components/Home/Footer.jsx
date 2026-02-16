@@ -7,17 +7,15 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto md:px-16 px-8 py-16">
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
-
-          {/* Brand Section */}
-          <div className="col-span-2 md:col-span-1">
+ 
+          <div className="col-span-4 md:col-span-1">
             <h2 className="text-2xl font-semibold">Inklune</h2>
 
             <p className="mt-4 text-sm text-white/80 leading-relaxed max-w-xs">
               A living archive of voices where ideas are planted,
               conversations bloom, and communities grow.
             </p>
-
-            {/* Social Icons */}
+ 
             <div className="flex gap-4 mt-6">
               <SocialIcon>
                 <Twitter size={18} />
@@ -33,8 +31,7 @@ export default function Footer() {
               </SocialIcon>
             </div>
           </div>
-
-          {/* Explore */}
+ 
           <FooterColumn
             title="Explore"
             links={[
@@ -45,8 +42,7 @@ export default function Footer() {
               "Events & Workshops",
             ]}
           />
-
-          {/* Company */}
+ 
           <FooterColumn
             title="Company"
             links={[
@@ -57,8 +53,7 @@ export default function Footer() {
               "Contact",
             ]}
           />
-
-          {/* Legal */}
+ 
           <div className="col-span-2 md:col-span-1">
             <FooterColumn
               title="Legal"
@@ -72,8 +67,7 @@ export default function Footer() {
             />
           </div>
         </div>
-
-        {/* Bottom Section */}
+ 
         <div className="border-t border-white/20 mt-14 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-white/70">
           <p>© 2025 Inklune. All rights reserved</p>
           <p className="mt-3 md:mt-0">
@@ -84,8 +78,6 @@ export default function Footer() {
     </footer>
   );
 }
-
-/* ---------- Components ---------- */
 
 function SocialIcon({ children }) {
   return (

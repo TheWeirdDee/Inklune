@@ -66,17 +66,16 @@ export default function CommunityVoices() {
   ];
 
   return (
-    <section className="w-full bg-[#f5f5f7] py-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-16">
+    <section className="w-full bg-[#f5f5f7] md:py-20 py-8">
+      <div className="max-w-7xl mx-auto px-0 lg:px-16">
 
-        {/* HEADER */}
-        <h2 className="text-center text-2xl font-semibold text-[#333] mb-12">
+     
+        <h2 className="text-center text-2xl font-semibold text-[#333] mb-6 md:mb-12">
           Community Voices
         </h2>
 
         <div className="grid lg:grid-cols-3 gap-8">
 
-          {/* ================= LEFT — DISCUSSIONS ================= */}
           <div className="lg:col-span-2 bg-[#ECEAF3] rounded-2xl p-6">
             <h3 className="font-semibold text-lg mb-6 text-[#333]">
               Trending Discussions
@@ -93,7 +92,6 @@ export default function CommunityVoices() {
                   whileHover={{ y: -3 }}
                   className="bg-white rounded-xl p-5 shadow-sm"
                 >
-                  {/* USER */}
                   <div className="flex items-center justify-between mb-3">
                     <div className="flex items-center gap-3">
                       <div className="relative w-10 h-10 rounded-full overflow-hidden">
@@ -119,18 +117,15 @@ export default function CommunityVoices() {
                       {post.tag}
                     </span>
                   </div>
-
-                  {/* TITLE */}
+ 
                   <h4 className="font-semibold text-[#333] mb-2">
                     {post.title}
                   </h4>
 
-                  {/* DESC */}
                   <p className="text-sm text-gray-500 leading-relaxed">
                     {post.desc}
                   </p>
 
-                  {/* FOOTER */}
                   <div className="flex justify-end mt-4">
                     <button className="text-sm text-[#6B5DD3] font-medium hover:underline">
                       Join Discussion
@@ -140,7 +135,6 @@ export default function CommunityVoices() {
               ))}
             </div>
 
-            {/* VIEW ALL */}
             <div className="text-center mt-8">
               <button className="text-sm font-medium text-[#333] hover:underline">
                 View All Discussions
@@ -148,10 +142,8 @@ export default function CommunityVoices() {
             </div>
           </div>
 
-          {/* ================= RIGHT — SIDEBAR ================= */}
           <div className="bg-[#ECEAF3] rounded-2xl p-6 space-y-8">
 
-            {/* FEATURED WRITERS */}
             <div>
               <h3 className="font-semibold text-lg mb-5 text-[#333]">
                 Featured Writers

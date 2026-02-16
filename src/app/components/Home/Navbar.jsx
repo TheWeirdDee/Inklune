@@ -89,10 +89,12 @@ export default function Navbar() {
               <Search className="absolute left-3 top-2.5 h-4 w-4 text-[#D2D2D2]" />
 
               <input
-                type="text"
-                placeholder="search stories"
-                className="w-full pl-9 pr-10 py-2 border rounded-full focus:outline-none focus:ring-1 focus:ring-[#8A63F7]"
-              />
+  type="text"
+  placeholder="search stories"
+  className="w-full pl-9 pr-10 py-2 border rounded-xl 
+             border border-[#C4C0CF] 
+             focus:outline-none focus:ring-1 focus:ring-[#8A63F7]"
+/>
 
               <Mic className="absolute right-3 top-2.5 h-4 w-4 text-[#D2D2D2] cursor-pointer" />
             </div>
